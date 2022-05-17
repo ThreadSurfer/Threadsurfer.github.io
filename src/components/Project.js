@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import VideoPlayer from './components/VideoJS.js'
+import VideoJS from './VideoJS.js'
 
 function Project(props) {
+
     return (
         <div id={props.name} class="project">
-            <img className = "projectImage" src={"images/" + props.name + ".jpg"} alt={props.name}></img>
-            <VideoJS src={".videos/" + props.name +".mp4"} poster={"images/" + props.name + ".jpg"} />
+            {/* <img className = "projectImage" src={"images/" + props.name + ".jpg"} alt={props.name}></img> */}
+            <VideoJS src={"videos/" + props.name +".mp4"} poster={"images/" + props.name + ".jpg"} />
 
             <h3 id="projectTitle">{props.name}</h3>
             <p class="projectDescription">
