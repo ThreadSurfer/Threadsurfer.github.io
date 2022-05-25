@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import Project from './Project';
+import getData from '../data.js'
 
 function Homepage() {
+
+    const data = getData();
+
     return <div id="homepage">
         <div id="bio">
             <div id="selfie-container">
@@ -23,12 +27,16 @@ function Homepage() {
         </div>
         <div id="projectsContainer">
             <h1 id="projectsHead">Projects</h1>
+
+            {data.map((project) => {
+                return(<Project key={project.name} name={project.name} languages={project.languages} description={project.description} programs={project.programs} platforms={project.platforms} />);
+            })}
+            {/* <Project name="katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
             <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
             <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
             <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
             <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
+            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/> */}
         </div>
     </div>
 }

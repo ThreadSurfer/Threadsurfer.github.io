@@ -10,6 +10,7 @@
     background-color: gray;
     font-size: 30px;
     min-width: 15em;
+    float: left;
 }
 
 #selfie-container {
@@ -46,13 +47,15 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    margin: 0;
+    float: right;
+    width: 65%;
 }
 
 .project {
     margin: 20px; 
     float: left;
-    width: 20%;
+    width: 10%;
     transition-duration: 500ms;
     background-color: rgba(230, 243, 255, 0.7);
     border-radius: 15px;
@@ -75,4 +78,12 @@
 
 #projectsHead {
     width: 100%;
+}
+
+.videoplayer{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
 }

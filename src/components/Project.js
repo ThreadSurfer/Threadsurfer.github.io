@@ -1,12 +1,18 @@
 import React from "react";
 import ReactDOM from 'react-dom';
+// import VideoJS from './VideoJS.js'
+import { useNavigate } from 'react-router-dom';
 
 function Project(props) {
+    
+    let navigate = useNavigate();
     return (
-        <div id={props.name} class="project">
+        <div id={props.name} className="project" onClick={() => {navigate("/"+props.name)}}>
             <img className = "projectImage" src={"images/" + props.name + ".jpg"} alt={props.name}></img>
-            <h3 id="projectTitle">{props.name}</h3>
-            <p class="projectDescription">
+            {/* <VideoJS src={"videos/" + props.name +".mp4"} poster={"images/" + props.name + ".jpg"} /> */}
+
+            <h3 id="projectTintle">{props.name}</h3>
+            <p className="projectDescription">
                 {props.description}
             </p>
             {
