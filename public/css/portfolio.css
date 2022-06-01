@@ -70,6 +70,8 @@
 
 .projectImage {
     height: 15em;
+    max-width: 15em;
+    padding-top: 20px;
 }
 
 .project{

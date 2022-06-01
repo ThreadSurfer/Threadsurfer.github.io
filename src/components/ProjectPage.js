@@ -1,8 +1,13 @@
 import react from "react";
 import reactDom from "react-dom";
+<<<<<<< HEAD
+import Project from "./Project";
+import VideoJS from "./VideoJS";
+=======
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+>>>>>>> main
 
-function HomePage(props) {
+function ProjectPage(props) {
 
     this.items = props
 
@@ -15,6 +20,8 @@ function HomePage(props) {
             <p className="description">{ props.desc }</p>
 
         </div>
+
+        <VideoJS src="https://youtu.be/Yqm0ZI0612M" poster={props.name} />
 
         <div className="technologies">
             <h3>Technologies</h3>
@@ -33,4 +40,4 @@ function HomePage(props) {
     </>
 }
 
-export default HomePage;
+export default ProjectPage;

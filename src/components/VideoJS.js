@@ -1,5 +1,5 @@
 import React from "react";
-import VideoPlayer from 'react-video-js-player'
+import VideoPlayer from 'react-video-js-player';
 
 const VideoJS = (props) => {
     console.log(props.src)
