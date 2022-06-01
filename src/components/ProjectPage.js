@@ -1,7 +1,11 @@
 import react from "react";
 import reactDom from "react-dom";
+<<<<<<< HEAD
 import Project from "./Project";
 import VideoJS from "./VideoJS";
+=======
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+>>>>>>> main
 
 function ProjectPage(props) {
 
