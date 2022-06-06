@@ -7,7 +7,7 @@ function Project(props) {
     
     let navigate = useNavigate();
     return (
-        <div id={props.name} className="project" onClick={() => {navigate("/"+props.name)}}>
+        <div id={props.name} className="project" onClick={() => {navigate("/ProjectPage"+"/"+props.id)}}>
             <img className = "projectImage" src={"images/" + props.name + ".jpg"} alt={props.name}></img>
             {/* <VideoJS src={"videos/" + props.name +".mp4"} poster={"images/" + props.name + ".jpg"} /> */}
 
