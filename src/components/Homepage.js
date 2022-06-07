@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from 'react-dom';
 import Project from './Project';
-import { getData, getProject } from "../data";
+import { getData } from "../data";
 
 function Homepage() {
 
@@ -10,7 +9,7 @@ function Homepage() {
     return <div id="homepage">
         <div id="bio">
             <div id="selfie-container">
-            <img id="selfie" src="images/selfie.jpg" alt="selfie picture of myself"></img>
+            <img id="selfie" src="../../images/selfie.jpg" alt="selfie myself"></img>
             </div>
             
             <p className="bioText" id = "personalName">Joel Giladi</p>
