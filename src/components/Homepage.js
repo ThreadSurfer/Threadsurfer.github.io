@@ -10,7 +10,7 @@ function Homepage() {
     return <div id="homepage">
         <div id="bio">
             <div id="selfie-container">
-            <img id="selfie" src="images/selfie.jpg" alt="selfie picture of myself"></img>
+            <img id="selfie" src="../images/selfie.jpg" alt="selfie picture of myself"></img>
             </div>
             
             <p className="bioText" id = "personalName">Joel Giladi</p>
