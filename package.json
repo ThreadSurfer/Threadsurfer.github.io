@@ -1,21 +1,25 @@
 {
+<<<<<<< HEAD
   "homepage": "https://ThreadSurfer.github.io/MyPortfolio",
+=======
+>>>>>>> 56c0161b05694b66c45c756e47da60a778af79a1
   "name": "MyPortfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "react-video-js-player": "^1.1.1",
-    "videojs-youtube": "^2.6.1",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
