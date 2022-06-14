@@ -38,7 +38,7 @@ function ProjectPage(props) {
                     { project.name }
                 </li>)}
             </ul> */}
-            <a href={project.github}><button className="gitButton" onClick="">
+            <a href={project.github}><button className="gitButton">
                 GitHub Repo
             </button>
             </a>

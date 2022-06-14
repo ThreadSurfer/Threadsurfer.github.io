@@ -29,14 +29,8 @@ function Homepage() {
             <h1 id="projectsHead">Projects</h1>
 
             {data.map((project) => {
-                return(<Project key={project.id} id={project.id} name={project.name} languages={project.languages} description={project.description} programs={project.programs} platforms={project.platforms} />);
+                return(<Project key={project.id} id={project.id} name={project.name} languages={project.languages} description={project.description} programs={project.programs} image = {project.image} platforms={project.platforms} />);
             })}
-            {/* <Project name="katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/>
-            <Project name="Katching" languages={["Java", "XML"]} description = {"description"} programs={["Android Studio"]} platforms={["Windows", "MacOS", "Android"]}/> */}
         </div>
     </div>
 }
