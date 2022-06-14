@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+  "homepage": "https://ThreadSurfer.github.io/MyPortfolio",
+=======
+>>>>>>> 56c0161b05694b66c45c756e47da60a778af79a1
   "name": "MyPortfolio",
   "version": "0.1.0",
   "private": true,
@@ -42,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
