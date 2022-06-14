@@ -1,6 +1,7 @@
 import React from "react";
 import Project from './Project';
 import { getData } from "../data";
+import profileImage from "../img/selfie.jpg"
 
 function Homepage() {
 
@@ -9,7 +10,7 @@ function Homepage() {
     return <div id="homepage">
         <div id="bio">
             <div id="selfie-container">
-            <img id="selfie" src="../images/selfie.jpg" alt="selfie myself"></img>
+            <img id="selfie" src={profileImage} alt="selfie picture of myself"></img>
             </div>
             
             <p className="bioText" id = "personalName">Joel Giladi</p>
