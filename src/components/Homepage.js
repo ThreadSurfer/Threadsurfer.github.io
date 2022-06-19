@@ -3,6 +3,8 @@ import Project from './Project';
 import { getData } from "../data";
 import profileImage from "../img/selfie.jpg"
 
+let style = {width: "50%"};
+
 function Homepage() {
 
     const data = getData();
@@ -14,10 +16,10 @@ function Homepage() {
             </div>
             
             <p className="bioText" id = "personalName">Joel Giladi</p>
-            <p className="bioText">Software Developer with 2 years experience. 
+            <p className="bioText">Recently graduated Software Developer with 2 years experience of school and freelance work.
             <br></br>
             <br></br> 
-            Familiarity with both front end and back end development.</p>
+            I have familiarity with both front end and back end development on both web and mobile platforms.</p>
             <p className="bioText">Contact: 
             <br></br>
             Email: giladij@icloud.com
@@ -29,7 +31,8 @@ function Homepage() {
             <h1 id="projectsHead">Projects</h1>
 
             {data.map((project) => {
-                return(<Project key={project.id} id={project.id} name={project.name} languages={project.languages} description={project.description} programs={project.programs} image = {project.image} platforms={project.platforms} />);
+                return(
+                <Project key={project.id} id={project.id} name={project.name} languages={project.languages} description={project.description} programs={project.programs} image = {project.image} platforms={project.platforms} />);
             })}
         </div>
     </div>
