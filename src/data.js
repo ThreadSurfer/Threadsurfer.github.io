@@ -1,6 +1,7 @@
 import katching from "./img/katching.jpg"
 import lemonaid from "./img/LemonAid.jpg"
 import userfetch from "./img/UserFetch-API.jpg"
+import oakwood from "./img/OakwoodPacific.png"
 
 const data = [
     {
@@ -35,6 +36,18 @@ const data = [
         image: userfetch,
         videoLink: "https://www.youtube.com/embed/j3bc6d4cTaA",
         github:"https://github.com/ThreadSurfer/UserFetch-API-project",
+        platforms: ["any"]
+    },
+
+    {
+        id:3,
+        name: "Oakwood Pacific",
+        languages: ["Liquid", "HTML", "CSS"],
+        description: "A business website I created for a client",
+        programs: ["Web Browser", "Shopify"],
+        image: oakwood,
+        videoLink: "https://www.youtube.com/embed/Hs_UMVY4kTo",
+        github:"https://www.shopify.ca",
         platforms: ["any"]
     },
 
