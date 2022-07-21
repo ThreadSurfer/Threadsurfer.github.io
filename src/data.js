@@ -1,7 +1,8 @@
 import katching from "./img/katching.jpg"
 import lemonaid from "./img/LemonAid.jpg"
 import userfetch from "./img/UserFetch-API.jpg"
-import oakwood from "./img/OakwoodPacific.png"
+import oakwood from "./img/OakwoodPacific.jpg"
+import apartments from "./img/Apartments.jpg"
 
 const data = [
     {
@@ -50,6 +51,18 @@ const data = [
         github:"https://www.shopify.ca",
         platforms: ["any"]
     },
+    {
+        id:4,
+        name: "Apartments",
+        languages: ["React", "Javascript", "HTML", "CSS", "Express"],
+        description: "A fullstack apartment booking app that makes use of a local back end (running on express and MongoDB) and a responsive front end.",
+        programs: ["Web Browser"],
+        image: apartments,
+        videoLink: "#",
+        github:"git@github.com:ThreadSurfer/Apartments.git",
+        platforms: ["Desktop"]
+
+    }
 
 
 ]
