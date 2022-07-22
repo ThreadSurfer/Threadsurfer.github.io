@@ -48,7 +48,7 @@ const data = [
         programs: ["Web Browser", "Shopify"],
         image: oakwood,
         videoLink: "https://www.youtube.com/embed/Hs_UMVY4kTo",
-        github:"https://www.shopify.ca",
+        github:"https://oakwoodpacific.com/",
         platforms: ["any"]
     },
     {
@@ -58,8 +58,8 @@ const data = [
         description: "A fullstack apartment booking app that makes use of a local back end (running on express and MongoDB) and a responsive front end.",
         programs: ["Web Browser"],
         image: apartments,
-        videoLink: "#",
-        github:"git@github.com:ThreadSurfer/Apartments.git",
+        videoLink: "https://www.youtube.com/embed/AaVlsIn4F7o",
+        github:"https://github.com/ThreadSurfer/Apartments",
         platforms: ["Desktop"]
 
     }
